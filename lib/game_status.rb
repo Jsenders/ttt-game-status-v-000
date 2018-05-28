@@ -14,4 +14,4 @@ end
 end
 
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-won?(board[0])
+won?(WIN_COMBINATIONS[0])
