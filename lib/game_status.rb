@@ -6,14 +6,13 @@ end
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [[0,1,2],[3,4,5],[6,7,8],[0,4,8],[2,4,6],[0,3,6],[1,4,7],[2,5,8]]
 
-def won?(array)
-WIN_COMBINATIONS.each do |winner_set|
-  if array[winner_set[0]] == array[winner_set[1]] &&
-     array[winner_set[1]] == array[winner_set[2]] &&
-     position_taken?(array, winner_set[0])
-     puts "somebody won!"
-     return true
-     return winner_set
-  end
+def won?(board)
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+top_row_win = [0,1,2]
+if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
+  puts "X won in the top row"
 end
 end
+
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+won?(board)
