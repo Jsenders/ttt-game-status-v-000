@@ -12,3 +12,6 @@ if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row
   puts "X won in the top row"
 end
 end
+
+won?(board)
+WIN_COMBINATIONS[0]
