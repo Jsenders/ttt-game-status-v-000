@@ -34,6 +34,4 @@ end
 def over?(board)
   draw?(board)
   full?(board)
-return true
-end
 end
