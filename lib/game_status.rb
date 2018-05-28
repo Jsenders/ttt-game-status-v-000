@@ -12,7 +12,7 @@ WIN_COMBINATIONS.each do |winner_set|
      array[winner_set[1]] == array[winner_set[2]] &&
      position_taken?(array, winner_set[0])
      puts "somebody won!"
-     return true 
+     return true
      return winner_set
   end
 end
