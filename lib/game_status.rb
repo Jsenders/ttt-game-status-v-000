@@ -12,7 +12,7 @@ WIN_COMBINATIONS.each do |array|
       return array
     end
   end
-  return false 
+  return false
 end
 
 def full?(board)
