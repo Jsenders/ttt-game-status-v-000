@@ -12,3 +12,9 @@ if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row
   puts "X won in the top row"
 end
 end
+
+board = [ " ", " ", " ", "X", "X", "X", " ", " ", " "]
+middle_row_win = [3,4,5]
+if board[middle_row_win[0]] == "X" && board[middle_row_win[1]] == "X" && board[middle_row_win[2]] == "X"
+  puts "X won in the middle row"
+end
