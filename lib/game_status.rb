@@ -33,5 +33,8 @@ end
 
 def over?(board)
   full?(board)
+  if !board.any? { |x| x == " " }
+  elsif true
   draw?(board)
+end
 end
