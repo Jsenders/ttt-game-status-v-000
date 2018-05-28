@@ -34,6 +34,6 @@ end
 def over?(board)
   draw?(board)
   full?(board)
-elsif false 
+elsif false
 end
 end
