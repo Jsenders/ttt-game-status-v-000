@@ -10,7 +10,7 @@ def won?(board)
 winner = []
 empty_board = board.all? {|x| x == " "}
 WIN_COMBINATIONS.each do |array|
-    if empty_board || full?(board)
+    if empty_board || full?(board) 
       return false
     elsif array.all? { |value| board[value] =="X" } || array.all? { |value| board[value] =="O" }
       winner = array 
