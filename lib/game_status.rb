@@ -13,5 +13,6 @@ if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row
 end
 end
 
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 won?(board)
 WIN_COMBINATIONS[0]
