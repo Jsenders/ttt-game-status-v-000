@@ -22,4 +22,3 @@ if board[bottom_row_win[0]] == "X" && board[bottom_row_win[1]] == "X" && board[b
     end
   end
 end
-
