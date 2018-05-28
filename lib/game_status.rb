@@ -15,4 +15,5 @@ end
 
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 won?(board)
-WIN_COMBINATIONS[0]
+
+
