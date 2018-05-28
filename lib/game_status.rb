@@ -10,7 +10,8 @@ def won?(board)
 winner = []
 WIN_COMBINATIONS.each do |array|
     if array.all? { |value| board[value] =="X" } || array.all? { |value| board[value] =="O" }
-      winner = array  
+      winner = array
+      return array 
     end
   end
 end
