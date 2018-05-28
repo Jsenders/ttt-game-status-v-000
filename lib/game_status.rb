@@ -16,7 +16,6 @@ WIN_COMBINATIONS.each do |array|
       winner = array
     end
   end
-  winner
 end
 
 def full?(board)
