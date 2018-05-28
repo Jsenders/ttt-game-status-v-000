@@ -14,4 +14,4 @@ end
 end
 
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-won?(board)
+won?(board[0])
