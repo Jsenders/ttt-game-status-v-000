@@ -35,5 +35,3 @@ def over?(board)
   full?(board)
   draw?(board)
 end
-  
-  
